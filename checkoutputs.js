@@ -23,7 +23,7 @@ walletfast.stdout.on('data', (data) => {
 });
 
 walletfast.stderr.on('data', (data) => {
-      console.log(` walletfast stderr: ${data}`)
+      console.log(`${data}`)
 });
 
 walletfast.on('close', (code) => {
